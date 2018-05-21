@@ -21,6 +21,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.2.1'
@@ -40,9 +41,6 @@ dependencies {
     compile 'com.github.javiersantos:MaterialStyledDialogs:2.1'
 
     compile 'com.github.javiersantos:MaterialStyledDialogs:2.1'
-
-
-
 
 
 }

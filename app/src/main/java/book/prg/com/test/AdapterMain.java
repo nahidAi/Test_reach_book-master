@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.balysv.materialripple.MaterialRippleLayout;
 
@@ -95,8 +96,8 @@ public class AdapterMain extends RecyclerView.Adapter<AdapterMain.ViewHolder> {
                         context.startActivity(intent);
 
                     } else {
-                        MainActivity mainActivity = new MainActivity();
-                        mainActivity.purchasePremiumAccant();
+                        Toast.makeText(context, "خریدی صورت نگرفته است", Toast.LENGTH_SHORT).show();
+
 
 
                        /* new MaterialStyledDialog.Builder(context)
